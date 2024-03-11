@@ -1,0 +1,30 @@
+A Pro Books precisa de um cadastro de livros, assim, ela poderá gerenciar melhor esse grupo de informações.
+
+Para cadastrar um livro precisamos de uma série de informações, informações essas detalhadas abaixo:
+
+Um título, obrigatório.
+Um resumo do que vai ser encontrado no livro, também obrigatório de no máximo 500 caracteres.
+Um sumário de tamanho livre, mas também obrigatório e com um tamanho mínimo de 100 caracteres.
+Preço do livro, que pode ser zero, para livros distribuídos de forma gratuita.
+Número de páginas do livro, um número inteiro maior que zero.
+ISBN (identificador do livro), valor único para cada livro.
+Data que ele deve entrar no ar(de publicação), data está que deve ser no futuro.
+Categoria do livro: um texto não vazio.
+Quem é o autor do livro, este autor precisa estar cadastrado na base de autores.
+Dada as informações de dados e restrições acima, escreva uma função em um arquivo chamado cadastraLivro.ts que realiza o cadastro de livros no sistema validando e imprimindo as mensagens de erro caso aconteçam.
+
+
+ Nosso sistema também precisa listar os livros, dito isso escreva um 
+outro arquivo chamado listaLivros.ts que busca todos os livros no sistema e exibe seu titulo, 
+nome do autor e a data de publicação.
+
+
+ Hoje os livros são cadastrados e as categorias destes livros são apenas textos soltos em cada livro, 
+ou seja, não temos uma lista de categorias pré-cadastradas onde apenas selecionamos qual é a categoria 
+do livro. Pensando nisso, o desafio desta tarefa se resume em centralizar a informação de categoria em
+seu próprio contexto, dito isso o desafio é:
+
+
+Crie um cadastro de categorias
+Crie uma listagem de categorias
+Ao cadastrar um livro, selecione uma categoria já existente no cadastro de categorias.
