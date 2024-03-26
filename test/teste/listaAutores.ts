@@ -1,5 +1,5 @@
-import { cadastraAutor } from "../../src/componentes/cadastraAutor.js";
-import { listaAutores } from "../../src/componentes/listaAutores.js";
+import { cadastraAutor } from "../../src/autor/cadastraAutor.Service.js";
+import { listaAutores } from "../../src/autor/listaAutores.Service.js";
 
 (() => {
     const autores = listaAutores();

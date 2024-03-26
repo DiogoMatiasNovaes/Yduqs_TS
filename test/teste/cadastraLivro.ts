@@ -1,5 +1,5 @@
 import { cadastraLivro } from "../../src/componentes/cadastraLivro.js";
-import { cadastraAutor } from "../../src/componentes/cadastraAutor.js";
+import { cadastraAutor } from "../../src/autor/cadastraAutor.Service.js";
 import { cadastraCategoria } from "../../src/componentes/cadastraCategoria.js";
 import { add, sub } from "date-fns";
 import { listarLivros } from "../../src/componentes/listaLivros.js";

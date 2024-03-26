@@ -1,4 +1,4 @@
-import { cadastraAutor } from "../../src/componentes/cadastraAutor.js";
+import { cadastraAutor } from "../../src/autor/cadastraAutor.Service.js";
 
 (() => {
     const { success, autor, erros} = cadastraAutor({
